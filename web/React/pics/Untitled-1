@@ -1,0 +1,29 @@
+class Dog {
+    private var sound = "Woof Woof";
+    public var countLegs = 4;
+
+    void setDriveSound(sound) {
+        this.sound = sound;
+    }
+
+    void setLegs(leg)
+    {
+        this.countLegs = leg;
+    }
+
+    var getSound(){
+        return this.sound;
+    }
+}
+
+
+main
+
+
+    Dog Samik;
+    Dog Lolo;
+
+    Samik.setDriveSound("Woooo");
+    Lolo.setDriveSound("   ");
+    Samik.setLegs(5);
+    
