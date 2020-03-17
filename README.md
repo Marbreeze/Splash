@@ -1,1 +1,1 @@
-# React smakl project ussing open unsplash API.Render pictures depending on the user entered key-word.
+# React, small project ussing open unsplash API. Render pictures depending on the user entered key-word.
