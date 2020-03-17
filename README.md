@@ -1,1 +1,1 @@
-# React unsplash app
+# React smakl project ussing open unsplash API.Render pictures depending on the user entered key-word.
