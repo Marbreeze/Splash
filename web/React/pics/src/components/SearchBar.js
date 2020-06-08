@@ -1,8 +1,7 @@
 import React from 'react';
 
 
-class SearchBar extends React.Component {      //we are creting class because we have to use state
-  state={term: ''};
+class SearchBar extends React.Component {      
 
    onClick(event){
        event.preventDefault();
@@ -10,7 +9,7 @@ class SearchBar extends React.Component {      //we are creting class because we
   onFormSubmit(event) {
       event.preventDefault();
      console.log(this.state.term,"this is my term");
-     this.props.onSubmit(this.state.term); //calling method onSubmit from App
+     this.props.onSubmit(this.state.term); 
   }
 
     render(){  //render function
@@ -22,8 +21,7 @@ class SearchBar extends React.Component {      //we are creting class because we
                     <div className = "field">
                         <label>Image Search</label>  
                     <input type = "text"
-                    // onClick={this.onInputClick} the same as below,arrow means funtion
-                    value={this.state.term}  /*rewriting over the user input the same input that would stick*/
+                    value={this.state.term}  /*rewriting over the user input
                     onChange={ e => this.setState({term:  e.target.value})}/> {/*what kind of input in the sb*/}
                     </div>                              {/*calling the funct  with the event and taking its val */}
                 </form>
